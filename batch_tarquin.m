@@ -58,7 +58,7 @@ for idx=1:length(rdainfo)
         fclose(fid)
         
         % run tarquin
-        cmdstr=sprintf('tarquin --para_file %s',pathc_cntrl)
+        cmdstr=sprintf('tarquin --para_file %s',pathc_cntrl) % this assumes that tarquin is in your path
         system(cmdstr,'-echo')
 end
 
