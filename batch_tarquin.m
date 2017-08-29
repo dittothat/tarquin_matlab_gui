@@ -3,7 +3,7 @@
 clear
 % run everything from:
 path_home='/home2/jstout/Data/tarquin_matlab_qui/test_data';
-% path_home=uigetdir('.','Select data parent folder'); % comment out this line and hardcoded path above will work
+path_home=uigetdir('.','Select data parent folder'); % comment out this line and hardcoded path above will work
 cd(path_home)
 
 %% generate rda_list
