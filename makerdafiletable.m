@@ -1,5 +1,7 @@
 %% Generates the table in DataLog.xlsx
 path_home=pwd;
+path_home=uigetdir('.');
+cd(path_home)
 % Get a list of all files and folders in this folder.
 files = dir()
 % Get a logical vector that tells which is a directory.
